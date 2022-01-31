@@ -10,7 +10,7 @@ use PayPal\Api\PatchRequest;
 use PayPal\Common\PayPalModel;
 
 $plan = new Plan();
-$plan->setName('Reecflix monthly subscription')
+$plan->setName('MFlix monthly subscription')
   ->setDescription('Gets you all the features of our site.')
   ->setType('INFINITE');
 

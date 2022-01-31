@@ -3,8 +3,8 @@ require_once("PayPal-PHP-SDK/autoload.php");
 
 $apiContext = new \PayPal\Rest\ApiContext(
     new \PayPal\Auth\OAuthTokenCredential(
-        'AVRhLtXg1klEAQYXu86-DiP-Pet_ZYmZQ8vpIzt3gcFdVtG3dBRQbS3ZLl-OSKI5oLdKKHFzesKI4_fT',     // ClientID
-        'EPN-Jhvtql-CtMhZW3sdXJEqNyfdqjLFLMNRVmp-lFs0Or1vY1XvA6VOQoW6sf50ARpJc6HWG4rW1hNT'      // ClientSecret
+        'AXndFmYyQ7mjX7jr3fAu_qP_pYGgv37pN4P9WDB9jXjMDDTpWJxDrvpS-dk4tT-nHFp0LlDMWBWXpWWZ',     // ClientID
+        'ED6khlrEkyOq0FbuGavzRoAlnmF6BP5HMMkaa_doicAqomNHHNEugm_ssX2d71qRbqvv_PYZrk0O6h2t'      // ClientSecret
     )
 );
 ?>
